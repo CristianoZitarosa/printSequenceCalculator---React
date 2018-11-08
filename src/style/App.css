@@ -45,6 +45,11 @@ h1 {
   margin-left: 109px;
 }
 
+#helpPage {
+  max-width: 80%;
+  margin: auto;
+}
+
 #submit {
   margin-left: 9px;
 }
