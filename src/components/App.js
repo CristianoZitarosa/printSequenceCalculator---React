@@ -34,8 +34,12 @@ class App extends Component {
             </div>
         )}/>
 
-      <div id="helpPage">
-        <Route path='/help' component={Help}/></div>
+        <Route path='/help' render={() => (
+          <div id="helpPage">
+            <Help/>
+          </div>)
+        }/>
+
       </div>
 
     );
