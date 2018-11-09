@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import '../style/App.css';
-import { Link } from 'react-router-dom'
-import { Route } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import Help from './Help';
+
+import { library } from '@fortawesome/fontawesome-svg-core';
+import {faTimesCircle } from '@fortawesome/free-solid-svg-icons';
+library.add(faTimesCircle);
 
 class App extends Component {
   render() {

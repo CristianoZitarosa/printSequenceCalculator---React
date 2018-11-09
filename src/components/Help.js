@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import '../style/App.css';
+import { Link } from 'react-router-dom'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Help extends Component {
   render() {
     return (
         <div className="message">
-
+          <Link to="/"><FontAwesomeIcon id="closeIcon" icon="times-circle" /></Link>
           <p>
             This app, is designed to help the user who needs to print a document on both sides of one sheets or more, but he does not own an automatic duplex printer and or the software managing the document is not capable to separately print even/odd pages.
           </p>
