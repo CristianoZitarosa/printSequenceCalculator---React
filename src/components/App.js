@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import '../style/App.css';
+import '../style/app.css';
 import { Link } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 import Help from './Help';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import {faTimesCircle } from '@fortawesome/free-solid-svg-icons';
+import { faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 library.add(faTimesCircle);
 
 class App extends Component {
@@ -23,7 +23,7 @@ class App extends Component {
               <input type="submit" id="submit" value="Submit" disabled="disabled"/>
               <input type="button" id="reset" value="Reset" disabled/>
               <Link to="/help">
-                <input type="button" id="help" value=">> Help <<"/>
+                <input type="button" id="helpButton" value=">> Help <<"/>
               </Link>
               <div>
                 <input type="checkbox" id="select" value="select" disabled/>

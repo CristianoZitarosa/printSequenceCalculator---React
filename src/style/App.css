@@ -41,29 +41,8 @@ h1 {
   margin: 0 auto;
 }
 
-#help {
+#helpButton {
   margin-left: 109px;
-}
-
-#helpPage {
-  max-width: 80%;
-  margin: auto;
-}
-
-#helpPage p, ol {
-  margin: 10px 20px;
-}
-
-#closeIcon {
-  color: #777;
-  width: 30px;
-  height: 30px;
-  transition: transform .3s ease-in-out;
-}
-
-#closeIcon:hover {
-  color: #f00;
-  transform: rotate(90deg);
 }
 
 #submit {

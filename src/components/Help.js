@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import '../style/App.css';
-import { Link } from 'react-router-dom'
+import '../style/help.css';
+import { Link } from 'react-router-dom';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Help extends Component {
   render() {
