@@ -9,7 +9,24 @@ import { faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 library.add(faTimesCircle);
 
 class App extends Component {
+
+  state = {
+    even: [],
+    odd: [],
+    error: false
+  }
+
   render() {
+
+    function setValues() {
+      const page = document.getElementById('page'); // numero di pagine
+      if (page.value>0) {
+console.log('mammeta');
+      } else {
+
+      }
+    }
+
     return (
       <div>
 
@@ -19,7 +36,7 @@ class App extends Component {
         <Route exact path='/' render={() => (
           <div id="container">
             <form id="form">
-              <input type="number" id="page" min="1" step="1" placeholder="Number of pages"/>
+              <input onInput={setValues} type="number" id="page" min="1" step="1" placeholder="Number of pages"/>
               <input type="submit" id="submit" value="Submit" disabled="disabled"/>
               <input type="button" id="reset" value="Reset" disabled/>
               <Link to="/help">

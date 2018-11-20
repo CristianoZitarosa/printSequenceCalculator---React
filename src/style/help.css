@@ -5,6 +5,7 @@
 
 #helpPage p, ol {
   margin: 10px 20px;
+  text-align: justify;
 }
 
 #closeIcon {
